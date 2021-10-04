@@ -1,0 +1,17 @@
+/* 顶部占位 */
+.nav_fixed{
+  height: var(--van-nav-bar-height);
+}
+
+/* 标题回退 */
+.van-nav-bar .van-icon, .van-nav-bar__text  {
+  color: var(--van-nav-bar-title-text-color);
+}
+
+img{
+  display: block;
+}
+p{
+  margin: 0;
+  padding: 0;
+}
