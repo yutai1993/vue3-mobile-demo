@@ -92,7 +92,7 @@ export default {
     })
     // 切换收藏
     const clickTabHandle = () => {
-      let arr = getStorageItem(data.collectionKey)
+      let arr = getStorageItem(data.collectionKey) || []
       if (isCollection()){
         // 已收藏 取消收藏
         let putArr = arr.splice(data.collectionShowIndex, 1)
